@@ -1,10 +1,112 @@
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
+}
+
+.heading-hero {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.paragraph-hero {
+    margin-bottom: 40px;
 }
 
 .cta-btn {
     border: 1px solid #000000;
-    padding: 10px 20px;
+    padding: 10px 25px;
     color: black;
     border-radius: 50px;
 }
+
+.navbar-pc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+
+    .container {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+
+        .navbar-links-pc {
+            display: flex;
+            align-items: center;
+
+            .navbar-btn {
+                font-size: 18px;
+                color: #000000;
+                font-family: inherit;
+                font-weight: 700;
+                position: relative;
+                border: none;
+                background: none;
+                transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                transition-duration: 400ms;
+                transition-property: color;
+                &:focus:after,
+                &:hover:after {
+                    width: 100%;
+                    left: 0%;
+                }
+
+                &:after {
+                    content: "";
+                    pointer-events: none;
+                    bottom: -2px;
+                    left: 50%;
+                    position: absolute;
+                    width: 0%;
+                    height: 2px;
+                    background-color: #000000;
+                    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+                    transition-duration: 400ms;
+                    transition-property: width, left;
+                }
+            }
+
+
+            a {
+                margin: 0px 20px;
+                color: #000000;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.img-animation {
+    transform-origin: center center;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+
+.img-container {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 0px);
+    z-index: 2;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 650px;
+    &:hover>img {
+        animation: loop 2s infinite alternate-reverse forwards;
+    }
+}
+
+@keyframes loop {
+    0% {
+        transform: rotate(-30deg) scale(1.8);
+      
+
+    }
+    100% {
+        transform: rotate(0) scale(1);
+    }
+  }
