@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Sans+3:wght@400;700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a,
+p {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -18,12 +33,19 @@ a {
     border-radius: 50px;
 }
 
+.navbar-background {
+    background-color: rgb(255 255 255 / 89%);
+    transition: .3s ease-in;
+}
+
 .navbar-pc {
+    padding: 20px 0px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
+    transition: .3s ease-in;
 
     .container {
         display: flex;
@@ -46,6 +68,7 @@ a {
                 transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
                 transition-duration: 400ms;
                 transition-property: color;
+
                 &:focus:after,
                 &:hover:after {
                     width: 100%;
@@ -95,6 +118,7 @@ a {
     position: relative;
     overflow: hidden;
     min-height: 650px;
+
     &:hover>img {
         animation: loop 2s infinite alternate-reverse forwards;
     }
@@ -103,10 +127,48 @@ a {
 @keyframes loop {
     0% {
         transform: rotate(-30deg) scale(1.8);
-      
+
 
     }
+
     100% {
         transform: rotate(0) scale(1);
     }
-  }
+}
+
+
+.contact {
+    position: relative;
+    height: 70vh;
+
+    .txt-container {
+        margin-left: 50px;
+    }
+        
+    img {
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+}
+
+.whatido {
+    margin-top: 70px !important;
+    margin-bottom: 100px;
+
+    .icon-container {
+        margin-top: 100px;
+
+        .icon {
+            margin-bottom: 30px;
+        }
+    }
+}
