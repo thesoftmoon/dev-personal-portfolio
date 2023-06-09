@@ -149,9 +149,19 @@ a {
     position: relative;
     height: 70vh;
 
+    .txt-container {
+        padding: 0px 36px 0px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     @media (max-width: 767.98px) {
+        display: block;
         height: 45vh;
         .txt-container {
+            flex-direction: column;
+            justify-content: center;
             margin: 0px!important;
             padding: 30px 20px 30px 20px;
             h1 {
@@ -160,9 +170,6 @@ a {
         }
     }
 
-    .txt-container {
-        margin-left: 50px;
-    }
 
     img {
         height: 100%;
@@ -206,6 +213,7 @@ a {
 
     @media (max-width: 767.98px) {
         display: flex;
+        margin-right: 0px;
 
         .icon-container {
             margin-right: 30px !important;

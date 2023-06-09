@@ -8,7 +8,7 @@
     const eMail = 'mailto:tomas.pacheco.c@gmail.com';
     return (
       <div id="contact" className="contact row">
-        <div className="row txt-container align-items-center justify-content-between h-100">
+        <div className="col-12 txt-container h-100">
           <div className="col-12 col-md-6">
             <h1>Lorem ipsum dolor sit amet consectetur</h1>
             <p>

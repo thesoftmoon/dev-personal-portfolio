@@ -5,10 +5,24 @@ import headerMo from './img/header-img-mo.jpg';
 import Whatido from './components/Whatido';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import { useEffect, useState } from 'react';
 
 function App() {
   const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of experience`;
   const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`
+  
+  
+  useEffect (()=>{
+   const onBlur = ()=>{
+    document.title = 'You need a Dev? :)';
+   }
+   const onFocus = ()=>{
+    document.title = 'TP | UI/UX and Front-end dev';
+   }
+    window.onblur = onBlur;
+    window.onfocus = onFocus;
+  });
+
 
   return (
     <div className="container">
