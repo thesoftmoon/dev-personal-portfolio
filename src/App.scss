@@ -144,7 +144,7 @@ a {
     .txt-container {
         margin-left: 50px;
     }
-        
+
     img {
         height: 100%;
         left: 0;
@@ -169,6 +169,79 @@ a {
 
         .icon {
             margin-bottom: 30px;
+        }
+    }
+}
+
+.contact-icon-container {
+    text-align: end;
+    margin-right: 30px;
+
+    .icon-container {
+        margin: 20px 0px;
+
+        .icons {
+            svg {
+                color: #000000;
+                transition: .3s ease;
+
+                &:hover {
+                    color: #a730f8;
+
+                }
+            }
+        }
+    }
+}
+
+.projects {
+    margin-bottom: 100px;
+
+    .title {
+        margin-bottom: 50px;
+    }
+
+    .project-card {
+        position: relative;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .card-text {
+            transition: .3s ease;
+            position: absolute;
+            bottom: 0;
+            padding-left: 20px;
+            background-color: #000000af;
+            left: 0;
+            right: 0;
+            margin: 0px 12px;
+            padding-bottom: 30px;
+
+            h3 {
+                color: #fff;
+            }
+
+            p {
+                color: #fff;
+            }
+
+            .links {
+                .icons {
+                    margin-right: 10px;
+                    color: #fff;
+                    transition: .3s ease;
+                    &:hover {
+                        color: #a730f8;
+                        transition: .3s ease;
+                    }
+                }
+            }
         }
     }
 }

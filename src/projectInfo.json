@@ -1,0 +1,25 @@
+[
+    {
+        "image": "img/project-thumb.jpg",
+        "title": "Proyecto 1",
+        "info": "Información de la card 1",
+        "dribbble": "https://dribbble.com/",
+        "github": "www.github.com",
+        "web": "www.google.com"
+      },
+      {
+        "image": "img/project-thumb.jpg",
+        "title": "Proyecto 2",
+        "info": "Información de la card 2",
+        "github": "www.github.com",
+        "web": "www.google.com"
+      },
+      {
+        "image": "img/project-thumb.jpg",
+        "title": "Proyecto 3",
+        "info": "Información de la card 3",
+        "dribbble": "https://dribbble.com/",
+        "github": "www.github.com",
+        "web": "www.google.com"
+      }
+]
