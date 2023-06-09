@@ -1,23 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navbar() {
 
   const navBarPc = document.querySelector('.navbar-pc');
 
-  window.onscroll = ()=> {
+  const [navBgColor, setNavBgColor] = useState(false);
+
+  const navbarBgChange = ()=>{
     if(window.scrollY >= 90){
       console.log('more than');
-      //navBarPc.classList.add('navbar-background');
+      setNavBgColor(true);      
     } else {
-      //navBarPc.classList.remove('navbar-background');
       console.log('not scrolling');
+      setNavBgColor(false);
     }
   };
+
+  window.addEventListener('scroll', navbarBgChange);
 
 
   console.log('working');
   return (
-    <div className="navbar-pc">
+    <div className={navBgColor ? "navbar-pc navbar-background" : "navbar-pc"}>
       <div className="container">
         <div>
           <svg
