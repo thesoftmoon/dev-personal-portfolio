@@ -172,6 +172,9 @@ a {
         top: 0;
         width: 100%;
         z-index: -1;
+        @media (max-width: 767.98px) {
+            padding: 0px;
+        }
     }
 
     h1 {
