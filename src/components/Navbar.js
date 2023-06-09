@@ -48,7 +48,7 @@ function Navbar() {
             
           </svg>
         </div>
-        <div className="navbar-links-pc">
+        <div className="navbar-links-pc d-none d-md-flex">
           <a className="navbar-btn" href="#whatido">
             what i do?
           </a>

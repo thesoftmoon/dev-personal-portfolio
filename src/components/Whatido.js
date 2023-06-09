@@ -15,7 +15,7 @@ function Whatido() {
       </div>
 
       <div className="row d-flex justify-content-between icon-container">
-        <div className="col-12 col-md-3 text-center">
+        <div className="col-12 col-md-3 text-center mb-5 mb-md-0">
           <div className="icon">
             <svg
               width="134"
@@ -76,7 +76,7 @@ function Whatido() {
           </p>
         </div>
 
-        <div className="col-12 col-md-3 text-center">
+        <div className="col-12 col-md-3 text-center mb-5 mb-md-0">
           <div className="icon">
             <svg
               width="134"
@@ -179,7 +179,7 @@ function Whatido() {
           </p>
         </div>
 
-        <div className="col-12 col-md-3 text-center">
+        <div className="col-12 col-md-3 text-center mb-5 mb-md-0">
           <div className="icon">
             <svg
               width="134"

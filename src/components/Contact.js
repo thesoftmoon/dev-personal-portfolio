@@ -9,7 +9,7 @@
     return (
       <div id="contact" className="contact">
         <div className="row txt-container align-items-center justify-content-between h-100">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <h1>Lorem ipsum dolor sit amet consectetur</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
@@ -17,7 +17,7 @@
             </p>
           </div>
 
-          <div className="col-2 contact-icon-container">
+          <div className="col-12 col-md-2 contact-icon-container">
             <div className="icon-container">
               <a href={gitHub} target="_blank" className="icons">
                 <svg

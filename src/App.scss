@@ -118,6 +118,10 @@ a {
     position: relative;
     overflow: hidden;
     min-height: 650px;
+    @media (max-width: 767.98px) {
+    min-height: 280px;
+        
+    }
 
     &:hover>img {
         animation: loop 2s infinite alternate-reverse forwards;
@@ -140,6 +144,11 @@ a {
 .contact {
     position: relative;
     height: 70vh;
+    @media (max-width: 767.98px) {
+        .txt-container{
+            margin-left: 10px!important;
+        }
+    }
 
     .txt-container {
         margin-left: 50px;
@@ -163,6 +172,9 @@ a {
 .whatido {
     margin-top: 70px !important;
     margin-bottom: 100px;
+    @media (max-width: 767.98px) {
+    margin-bottom: 10px;
+    }
 
     .icon-container {
         margin-top: 100px;
@@ -176,6 +188,13 @@ a {
 .contact-icon-container {
     text-align: end;
     margin-right: 30px;
+    display: block;
+    @media (max-width: 767.98px) {
+        display: flex;
+        .icon-container {
+            margin-right: 30px!important;
+        }
+    }
 
     .icon-container {
         margin: 20px 0px;
@@ -196,6 +215,9 @@ a {
 
 .projects {
     margin-bottom: 100px;
+    @media (max-width: 767.98px) {
+        margin-bottom: 10px;
+    }
 
     .title {
         margin-bottom: 50px;
@@ -203,6 +225,9 @@ a {
 
     .project-card {
         position: relative;
+        @media (max-width: 767.98px) {
+            margin-bottom: 30px;
+        }
 
         img {
             height: 100%;
@@ -213,17 +238,18 @@ a {
         }
 
         .card-text {
-            transition: .3s ease;
+            transition: 3s ease;
             position: absolute;
             bottom: 0;
             padding-left: 20px;
-            background-color: #000000af;
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
             left: 0;
             right: 0;
             margin: 0px 12px;
             padding-bottom: 30px;
 
-            h3 {
+            h3, h4, h5 {
                 color: #fff;
             }
 
@@ -242,6 +268,16 @@ a {
                     }
                 }
             }
+        }
+    }
+}
+
+.hero-header {
+
+    @media (max-width: 767.98px) {
+        .main-info {
+            margin-bottom: 50px;
+            margin-top: 20px;
         }
     }
 }
