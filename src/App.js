@@ -1,5 +1,7 @@
 import './App.scss';
 import Navbar from './components/Navbar';
+import headerPcVideo from './vid/header-vid-pc.mp4';
+import headerMoVideo from './vid/header-vid-mo.mp4';
 import headerPc from './img/header-img-pc.jpg';
 import headerMo from './img/header-img-mo.jpg';
 import Whatido from './components/Whatido';
@@ -29,15 +31,23 @@ function App() {
       <Navbar/>
       <div className='row d-md-flex align-items-center justify-content-between hero-header'>
         <div className='col-12 col-md-5 img-container d-flex d-md-none'>
-          <img src={headerMo} alt='header pc' className='img-animation'/>
+          {/* <img src={headerMo} alt='header pc' className='img-animation'/> */}
+          <video autoPlay muted loop>
+            <source src={headerMoVideo} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className='col-12 col-md-5 main-info'>
           <h1 className='heading-hero'>{headingHeroTxt}</h1>
           <p className='paragraph-hero'>{paragraphHeroTxt}</p>
           <a href='#contact' className='text-uppercase cta-btn'>contact me</a>
         </div>
-        <div className='col-12 col-md-5 img-container d-none d-md-flex'>
-          <img src={headerPc} alt='header pc' className='img-animation'/>
+        <div className='col-12 col-md-6 img-container d-none d-md-flex'>
+          {/* <img src={headerPc} alt='header pc' className='img-animation'/> */}
+          <video autoPlay muted loop>
+            <source src={headerPcVideo} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
         <Whatido/>
