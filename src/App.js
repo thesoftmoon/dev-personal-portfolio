@@ -2,8 +2,6 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import headerPcVideo from './vid/header-vid-pc.mp4';
 import headerMoVideo from './vid/header-vid-mo.mp4';
-import headerPc from './img/header-img-pc.jpg';
-import headerMo from './img/header-img-mo.jpg';
 import Whatido from './components/Whatido';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';

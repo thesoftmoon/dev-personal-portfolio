@@ -180,6 +180,18 @@ a {
     }
 
 
+    video {
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        @media (max-width: 767.98px) {
+            padding: 0px;
+        }
+    }
     img {
         height: 100%;
         left: 0;
@@ -259,6 +271,7 @@ a {
 
     .project-card {
         position: relative;
+        margin-bottom: 30px;
 
         @media (max-width: 767.98px) {
             margin-bottom: 30px;

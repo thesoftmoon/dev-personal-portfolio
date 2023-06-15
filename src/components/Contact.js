@@ -1,5 +1,6 @@
   import React from "react";
-  import footerBgPc from "../img/footer-banner-bg.jpg";
+  import headerPcVideo from '../vid/header-footer-vid-pc.mp4';
+  import headerMoVideo from '../vid/header-footer-vid-mo.mp4';
 
   function Contact() {
 
@@ -19,7 +20,7 @@
 
           <div className="col-12 col-md-2 contact-icon-container">
             <div className="icon-container">
-              <a href={gitHub} target="_blank" className="icons">
+              <a href={gitHub} rel="noreferrer" target="_blank" className="icons">
                 <svg
                   width="40"
                   height="40"
@@ -37,7 +38,7 @@
               </a>
             </div>
             <div className="icon-container">
-              <a href={linkdIn} target="_blank" className="icons">
+              <a href={linkdIn} rel="noreferrer" target="_blank" className="icons">
                 <svg
                   width="40"
                   height="40"
@@ -62,7 +63,7 @@
               </a>
             </div>
             <div className="icon-container">
-              <a href={eMail} target="_blank" className="icons">
+              <a href={eMail} rel="noreferrer" target="_blank" className="icons">
                 <svg
                   width="40"
                   height="40"
@@ -94,7 +95,14 @@
             </div>
           </div>
         </div>
-        <img src={footerBgPc} className="img-fluid" />
+        <video autoPlay muted loop className="d-none d-md-block">
+            <source src={headerPcVideo} type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+        <video autoPlay muted loop className="d-block d-md-none">
+            <source src={headerMoVideo} type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
       </div>
     );
   }
