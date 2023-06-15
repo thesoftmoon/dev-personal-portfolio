@@ -30,7 +30,7 @@ function App() {
       <div className='row d-md-flex align-items-center justify-content-between hero-header'>
         <div className='col-12 col-md-5 img-container d-flex d-md-none'>
           {/* <img src={headerMo} alt='header pc' className='img-animation'/> */}
-          <video autoPlay muted loop>
+          <video  autoPlay muted playsInline loop >
             <source src={headerMoVideo} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -42,7 +42,7 @@ function App() {
         </div>
         <div className='col-12 col-md-6 img-container d-none d-md-flex'>
           {/* <img src={headerPc} alt='header pc' className='img-animation'/> */}
-          <video autoPlay muted loop>
+          <video autoPlay muted playsInline loop >
             <source src={headerPcVideo} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>

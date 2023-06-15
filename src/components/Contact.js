@@ -95,11 +95,11 @@
             </div>
           </div>
         </div>
-        <video autoPlay muted loop className="d-none d-md-block">
+        <video autoPlay muted playsInline loop className="d-none d-md-block">
             <source src={headerPcVideo} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
-        <video autoPlay muted loop className="d-block d-md-none">
+        <video autoPlay muted playsInline loop className="d-block d-md-none">
             <source src={headerMoVideo} type="video/mp4"/>
             Your browser does not support the video tag.
         </video>
