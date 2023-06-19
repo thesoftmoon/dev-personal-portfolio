@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of experience`;
+  const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience`;
   const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`
   
   

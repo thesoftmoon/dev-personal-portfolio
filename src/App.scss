@@ -34,6 +34,14 @@ a {
     padding: 10px 25px;
     color: black;
     border-radius: 50px;
+    transition: .2s ease;
+    &:hover{
+        background-color: #a730f8;
+        border-color: #a730f8;
+        color: #fff;
+        transition: .2s ease;
+        box-shadow: 5px 5px 15px #00000042;
+    }
 }
 
 .navbar-background {
