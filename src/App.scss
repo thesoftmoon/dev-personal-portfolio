@@ -289,8 +289,8 @@ a {
             transition: 3s ease;
             position: absolute;
             bottom: 0;
+            padding-top: 70px;
             padding-left: 20px;
-            background: rgb(0, 0, 0);
             background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
             left: 0;
             right: 0;
@@ -406,6 +406,24 @@ a {
             h2 {
                 font-size: 38px;
             }
+        }
+    }
+}
+
+.tags-and-links {
+    display: flex;
+    align-items: center;
+    .tags {
+        display: flex;
+        margin-left: 5px;
+        align-items: center;
+        .tag {
+            background-color: #a730f8;
+            padding: 3px 10px;
+            border-radius: 35px;
+            font-size: 12px;
+            margin-right: 5px;
+            margin-bottom: 0px;
         }
     }
 }
