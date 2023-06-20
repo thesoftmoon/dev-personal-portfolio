@@ -71,8 +71,9 @@ function Whatido() {
           </div>
           <h5>{title1}</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+            I optimize your already developed website, adjusting images, videos
+            and visual media, I work on some of the best known CMS such as
+            Wordpress Adobe Experience Manager and Sitecore.
           </p>
         </div>
 
@@ -174,8 +175,9 @@ function Whatido() {
           </div>
           <h5>{title2}</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+            I analyze and formulate action flows, along with user interfaces
+            focused on the latest trends that are most effective with your
+            target user group.
           </p>
         </div>
 
@@ -225,8 +227,8 @@ function Whatido() {
           </div>
           <h5>{title3}</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+            I develop an excellent user experience by coding interfaces with the
+            highest standards and latest technologies in trend in the market.
           </p>
         </div>
       </div>

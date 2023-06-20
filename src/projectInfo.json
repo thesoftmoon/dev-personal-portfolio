@@ -18,14 +18,14 @@
     "image": "img/project-rlc-store.jpg",
     "title": "RLC Store",
     "info": "An E-commerce website, developed in wordpress and woocommerce, complete media creation and seo optimization.",
-    "web": "http://rompelacleta.com/",
+    "web": "https://rompelacleta.com/",
     "tech": ["Wordpress", "Woocommerce", "JS", "CSS"]
   },
   {
     "image": "img/project-pharpack.jpg",
     "title": "Pharpack Website",
     "info": "A simple corporate website for Pharpack, a Chilean creative agency part of group Faret",
-    "web": "http://www.pharpack.cl/",
+    "web": "https://www.pharpack.cl/",
     "tech": ["Figma", "Wordpress", "PHP", "CSS", "JS"]
   },
   {

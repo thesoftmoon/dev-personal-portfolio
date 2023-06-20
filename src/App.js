@@ -5,11 +5,12 @@ import headerMoVideo from './vid/header-vid-mo.mp4';
 import Whatido from './components/Whatido';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import blackFavicon from './favicon/favicon-tp-black.ico';
 import { useEffect, useState } from 'react';
 
 function App() {
   const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience`;
-  const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`
+  const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`;
   
   
   useEffect (()=>{
@@ -21,7 +22,15 @@ function App() {
    }
     window.onblur = onBlur;
     window.onfocus = onFocus;
-  });
+
+    let faviconLink = document.querySelector("link[rel~='icon']");
+    if (!faviconLink) {
+      faviconLink = document.createElement('link');
+      faviconLink.rel = 'icon';
+      document.getElementsByTagName('head')[0].appendChild(faviconLink);
+    }
+    faviconLink.href = blackFavicon;
+  }, []);
 
 
   return (
