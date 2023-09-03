@@ -7,6 +7,7 @@ function Portfolio() {
 
   const handleMouseOver = (index) => {
     setIsHovering(index);
+    console.log('is hovering');
   };
 
   const handleMouseOut = () => {
@@ -28,8 +29,7 @@ function Portfolio() {
             onMouseOut={handleMouseOut}
           >
             <img src={require(`../${card.image}`)} alt="project thumbnail" />
-            {isHovering === index && (
-              <div className="card-text">
+              <div className={ isHovering === index ? 'card-text fade-in' : 'card-text'}>
                 <h4>{card.title}</h4>
                 <p style={{fontSize:14+'px'}}>{card.info}</p>
                 <div className="tags-and-links">
@@ -113,7 +113,7 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
-            )}
+            
           </div>
         ))}
       </div>

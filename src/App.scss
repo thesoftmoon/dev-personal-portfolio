@@ -20,6 +20,7 @@ a {
 .heading-hero {
     font-size: 48px;
     margin-bottom: 20px;
+
     @media (max-width: 767.98px) {
         font-size: 32px;
     }
@@ -35,7 +36,8 @@ a {
     color: black;
     border-radius: 50px;
     transition: .2s ease;
-    &:hover{
+
+    &:hover {
         background-color: #a730f8;
         border-color: #a730f8;
         color: #fff;
@@ -129,6 +131,7 @@ a {
     position: relative;
     overflow: hidden;
     min-height: 650px;
+
     video {
         width: 100%;
         position: absolute;
@@ -136,6 +139,7 @@ a {
 
     @media (max-width: 767.98px) {
         min-height: 280px;
+
         video {
             width: 110%;
             left: 0;
@@ -176,11 +180,13 @@ a {
     @media (max-width: 767.98px) {
         display: block;
         height: 45vh;
+
         .txt-container {
             flex-direction: column;
             justify-content: center;
-            margin: 0px!important;
+            margin: 0px !important;
             padding: 30px 20px 30px 20px;
+
             h1 {
                 font-size: 32px;
             }
@@ -196,10 +202,12 @@ a {
         top: 0;
         width: 100%;
         z-index: -1;
+
         @media (max-width: 767.98px) {
             padding: 0px;
         }
     }
+
     img {
         height: 100%;
         left: 0;
@@ -208,6 +216,7 @@ a {
         top: 0;
         width: 100%;
         z-index: -1;
+
         @media (max-width: 767.98px) {
             padding: 0px;
         }
@@ -293,8 +302,28 @@ a {
             z-index: -1;
         }
 
+        .display-none {
+            animation: display-none 2s ease-out;
+
+            @keyframes display-none {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+
+                    opacity: 1;
+                }
+            }
+        }
+
+        .fade-in {
+            opacity: 100% !important;
+            /* Hace que el elemento sea completamente visible */
+            pointer-events: all !important;
+        }
+
         .card-text {
-            transition: 3s ease;
             position: absolute;
             bottom: 0;
             padding-top: 70px;
@@ -304,6 +333,9 @@ a {
             right: 0;
             margin: 0px 12px;
             padding-bottom: 30px;
+            transition: opacity 0.35s ease-in-out;
+            opacity: 0;
+            pointer-events: none;
 
             h3,
             h4,
@@ -316,6 +348,9 @@ a {
             }
 
             .links {
+                display: flex;
+                
+
                 .icons {
                     margin-right: 10px;
                     color: #fff;
@@ -408,9 +443,11 @@ a {
         text-align: end;
         background-color: #fff;
         box-shadow: 5px 5px 25px #00000047;
+
         .navbar-mo-btn {
             margin-bottom: 30px;
             color: #000000;
+
             h2 {
                 font-size: 38px;
             }
@@ -421,10 +458,15 @@ a {
 .tags-and-links {
     display: flex;
     align-items: center;
+
     .tags {
-        display: flex;
-        margin-left: 5px;
-        align-items: center;
+                display: flex;
+                margin-left: 5px;
+                align-items: center;
+                max-width: 260px;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+
         .tag {
             background-color: #a730f8;
             padding: 3px 10px;
@@ -432,6 +474,7 @@ a {
             font-size: 12px;
             margin-right: 5px;
             margin-bottom: 0px;
+            margin-bottom: 5px;
         }
     }
 }
