@@ -7,11 +7,22 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import blackFavicon from './favicon/favicon-tp-black.ico';
 import { useEffect, useState } from 'react';
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience`;
   const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`;
   
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      //easing: 'ease-in-sine',
+      delay: 150,
+    });
+  }, [])
   
   useEffect (()=>{
    const onBlur = ()=>{

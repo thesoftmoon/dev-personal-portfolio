@@ -7,7 +7,7 @@ function Contact() {
   const linkdIn = "https://www.linkedin.com/in/tomas-pacheco-uiux/";
   const eMail = "mailto:tomas.pacheco.c@gmail.com";
   return (
-    <div id="contact" className="contact row">
+    <div id="contact" className="contact row" data-aos='fade-right'>
       <div className="col-12 txt-container h-100">
         <div className="col-12 col-md-6">
           <h1>would you like to work together?</h1>

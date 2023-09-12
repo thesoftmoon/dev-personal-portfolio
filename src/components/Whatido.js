@@ -7,7 +7,7 @@ function Whatido() {
   const title3 = "Front-end development";
 
   return (
-    <div className="whatido" id="whatido">
+    <div className="whatido" data-aos='fade-right' id="whatido">
       <div className="row">
         <div className="col-12 text-center">
           <h1>{mainTitle}</h1>

@@ -14,7 +14,7 @@ function Portfolio() {
     setIsHovering(null);
   };
   return (
-    <div id="projects" className="projects">
+    <div id="projects" className="projects" data-aos='fade-left'>
       <div className="row">
         <div className="col-12 text-center title">
           <h1>{mainTitle}</h1>
