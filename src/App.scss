@@ -441,7 +441,7 @@ a {
 
     .links-mo {
         position: absolute;
-        right: 0;
+        right: -100%;
         display: grid;
         top: 0;
         padding: 125px 50px 30px 50px;
@@ -456,6 +456,39 @@ a {
             h2 {
                 font-size: 38px;
             }
+        }
+    }
+
+    .open {
+        animation: show-menu 0.6s ease-in-out forwards;
+    }
+
+    @keyframes show-menu {
+        0% {
+            opacity: 0;
+            right: -100%;
+        }
+    
+        100% {
+            opacity: 1;
+            right: 0;
+        }
+    }
+
+    .closed {
+        animation: close-menu 1s ease-in-out forwards;
+    }
+
+    @keyframes close-menu {
+        0% {
+            opacity: 1;
+            right: 0;
+        }
+    
+        100% {
+            
+            opacity: 0;
+            right: -100%;
         }
     }
 }
