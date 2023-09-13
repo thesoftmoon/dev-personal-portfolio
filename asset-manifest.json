@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-personal-portfolio/static/css/main.15bb3254.css",
-    "main.js": "/dev-personal-portfolio/static/js/main.ff097709.js",
+    "main.css": "/dev-personal-portfolio/static/css/main.9dffc701.css",
+    "main.js": "/dev-personal-portfolio/static/js/main.d24cedc4.js",
     "static/media/header-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-vid-pc.48aa4e1d5bfc0ba79cb5.mp4",
     "static/media/header-vid-mo.mp4": "/dev-personal-portfolio/static/media/header-vid-mo.35a62813ea060016429d.mp4",
     "static/media/header-footer-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-footer-vid-pc.a9e52449f5c2a5915a1a.mp4",
@@ -17,15 +17,14 @@
     "static/media/project-mg-challenge.jpg": "/dev-personal-portfolio/static/media/project-mg-challenge.bc263b0ced3288e4c5f1.jpg",
     "static/media/favicon-tp-black.ico": "/dev-personal-portfolio/static/media/favicon-tp-black.9c22e10bc36f59732e6d.ico",
     "static/media/favicon-tp-white.ico": "/dev-personal-portfolio/static/media/favicon-tp-white.5cdfbc406120739f1480.ico",
-    "static/media/logo.svg": "/dev-personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "static/media/favicon-tp-black.svg": "/dev-personal-portfolio/static/media/favicon-tp-black.1679c67b1cbf3929768b.svg",
     "static/media/favicon-tp-white.svg": "/dev-personal-portfolio/static/media/favicon-tp-white.236f19cea7d1e28bea7c.svg",
     "index.html": "/dev-personal-portfolio/index.html",
-    "main.15bb3254.css.map": "/dev-personal-portfolio/static/css/main.15bb3254.css.map",
-    "main.ff097709.js.map": "/dev-personal-portfolio/static/js/main.ff097709.js.map"
+    "main.9dffc701.css.map": "/dev-personal-portfolio/static/css/main.9dffc701.css.map",
+    "main.d24cedc4.js.map": "/dev-personal-portfolio/static/js/main.d24cedc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.15bb3254.css",
-    "static/js/main.ff097709.js"
+    "static/css/main.9dffc701.css",
+    "static/js/main.d24cedc4.js"
   ]
 }
