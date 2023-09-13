@@ -72,7 +72,6 @@ function App() {
         <Whatido/>
         <Portfolio/>
         <Contact/>
-        <TestComponent />
     </div>
   );
 }
