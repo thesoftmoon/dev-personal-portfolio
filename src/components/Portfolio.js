@@ -31,7 +31,7 @@ function Portfolio() {
             <img src={require(`../${card.image}`)} alt="project thumbnail" />
               <div className={ isHovering === index ? 'card-text fade-in' : 'card-text'}>
                 <h4>{card.title}</h4>
-                <p style={{fontSize:14+'px'}}>{card.info}</p>
+                <p className="info-text">{card.info}</p>
                 <div className="tags-and-links">
                   <div className="links">
                     {card.dribbble && (

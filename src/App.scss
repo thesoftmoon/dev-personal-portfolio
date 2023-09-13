@@ -326,13 +326,11 @@ a {
         .card-text {
             position: absolute;
             bottom: 0;
-            padding-top: 70px;
-            padding-left: 20px;
+            padding: 70px 12px 10px 12px;
             background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
             left: 0;
             right: 0;
             margin: 0px 12px;
-            padding-bottom: 30px;
             transition: opacity 0.35s ease-in-out;
             opacity: 0;
             pointer-events: none;
@@ -341,6 +339,13 @@ a {
             h4,
             h5 {
                 color: #fff;
+                font-size: 18px;
+            }
+
+            .info-text {
+                font-size: 13px;
+                margin-bottom: 5px;
+
             }
 
             p {
