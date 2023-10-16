@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/dev-personal-portfolio/static/css/main.99af94e1.css",
-    "main.js": "/dev-personal-portfolio/static/js/main.9264e21d.js",
+    "main.js": "/dev-personal-portfolio/static/js/main.3f30a320.js",
     "static/media/header-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-vid-pc.48aa4e1d5bfc0ba79cb5.mp4",
     "static/media/header-vid-mo.mp4": "/dev-personal-portfolio/static/media/header-vid-mo.35a62813ea060016429d.mp4",
     "static/media/header-footer-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-footer-vid-pc.a9e52449f5c2a5915a1a.mp4",
     "static/media/header-footer-vid-mo.mp4": "/dev-personal-portfolio/static/media/header-footer-vid-mo.6b994d3d423ed8ec6985.mp4",
     "static/media/header-img-mo.jpg": "/dev-personal-portfolio/static/media/header-img-mo.115287c50ac94814c91f.jpg",
     "static/media/header-img-pc.jpg": "/dev-personal-portfolio/static/media/header-img-pc.6954eed8de9d01255d64.jpg",
+    "static/media/project-mg-challenge.jpg": "/dev-personal-portfolio/static/media/project-mg-challenge.655767c5d0da8d3d83bf.jpg",
     "static/media/footer-banner-bg.jpg": "/dev-personal-portfolio/static/media/footer-banner-bg.63924b7a344706971552.jpg",
     "static/media/project-mg-motor.jpg": "/dev-personal-portfolio/static/media/project-mg-motor.fc532a731e2fdc53a68a.jpg",
     "static/media/project-thumb.jpg": "/dev-personal-portfolio/static/media/project-thumb.f591882b97816d7c9366.jpg",
     "static/media/project-rlc-store.jpg": "/dev-personal-portfolio/static/media/project-rlc-store.0b185a6f202c47ef9298.jpg",
     "static/media/project-samsung-liveshop.jpg": "/dev-personal-portfolio/static/media/project-samsung-liveshop.0b1bd27adf7113d81adb.jpg",
     "static/media/project-pharpack.jpg": "/dev-personal-portfolio/static/media/project-pharpack.0cb2f91589c53f136fcd.jpg",
-    "static/media/project-mg-challenge.jpg": "/dev-personal-portfolio/static/media/project-mg-challenge.bc263b0ced3288e4c5f1.jpg",
     "static/media/favicon-tp-black.ico": "/dev-personal-portfolio/static/media/favicon-tp-black.9c22e10bc36f59732e6d.ico",
     "static/media/favicon-tp-white.ico": "/dev-personal-portfolio/static/media/favicon-tp-white.5cdfbc406120739f1480.ico",
     "static/media/favicon-tp-black.svg": "/dev-personal-portfolio/static/media/favicon-tp-black.1679c67b1cbf3929768b.svg",
     "static/media/favicon-tp-white.svg": "/dev-personal-portfolio/static/media/favicon-tp-white.236f19cea7d1e28bea7c.svg",
     "index.html": "/dev-personal-portfolio/index.html",
     "main.99af94e1.css.map": "/dev-personal-portfolio/static/css/main.99af94e1.css.map",
-    "main.9264e21d.js.map": "/dev-personal-portfolio/static/js/main.9264e21d.js.map"
+    "main.3f30a320.js.map": "/dev-personal-portfolio/static/js/main.3f30a320.js.map"
   },
   "entrypoints": [
     "static/css/main.99af94e1.css",
-    "static/js/main.9264e21d.js"
+    "static/js/main.3f30a320.js"
   ]
 }
