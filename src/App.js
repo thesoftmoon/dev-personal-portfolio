@@ -10,7 +10,6 @@ import { useEffect, useState } from 'react';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Modal from './components/Modal';
 
 function App() {
   const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience`;

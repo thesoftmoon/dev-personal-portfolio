@@ -1,40 +1,49 @@
 body.active-modal-js {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .btn-modal-js {
-    padding: 10px 20px;
-    display: block;
-    margin: 100px auto 0;
-    font-size: 18px;
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
 }
 
-.modal, .overlay-js {
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: fixed;
-    z-index: 20;
+.modal,
+.overlay-js {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 20;
 }
 
 .overlay-js {
-    background: rgba(49,49,49,0.8);
+  background: rgba(49, 49, 49, 0.8);
 }
 .modal-content-js {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1.4;
-    background: #f1f1f1;
-    padding: 14px 28px;
-    border-radius: 3px;
-    max-width: 500px;
-    min-width: 200px;
-    z-index: 22;
+  position: fixed;
+  top: 15%;
+  left: 30%;
+  /*transform: translate(-50%, -50%);*/
+  line-height: 1.4;
+  background: transparent;
+  border-radius: 3px;
+  max-width: 500px;
+  min-width: 200px;
+  z-index: 22;
+  .content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 0px 20px 10px 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.832) 0%, rgba(0, 0, 0, 0) 60%);
+    color: #fff;
+  }
 }
 
 .close-modal-js {
@@ -42,4 +51,7 @@ body.active-modal-js {
     top: 10px;
     right: 10px;
     padding: 5px 7px;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
 }
