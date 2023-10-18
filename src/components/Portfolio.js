@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import projectData from "../projectInfo.json";
+import Modal from "./Modal";
 
 function Portfolio() {
   const mainTitle = "Projects";
@@ -26,9 +27,10 @@ function Portfolio() {
             key={index}
             className="col-12 col-md-4 project-card"
             onMouseOver={() => handleMouseOver(index)}
-            onMouseOut={handleMouseOut}
+            //onMouseOut={handleMouseOut}
           >
-            <img src={require(`../${card.image}`)} alt="project thumbnail" />
+            <Modal imageRoute={require(`../${card.image}`)} modalImg={require(`../${card.image}`)} mainTxt={card.title} sideTxt={card.info}/>
+
               <div className={ isHovering === index ? 'card-text fade-in' : 'card-text'}>
                 <h4>{card.title}</h4>
                 <p className="info-text">{card.info}</p>
