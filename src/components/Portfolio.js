@@ -27,7 +27,7 @@ function Portfolio() {
             key={index}
             className="col-12 col-md-4 project-card"
             onMouseOver={() => handleMouseOver(index)}
-            //onMouseOut={handleMouseOut}
+            onMouseOut={handleMouseOut}
           >
             <Modal imageRoute={require(`../${card.image}`)} modalImg={require(`../${card.image}`)} mainTxt={card.title} sideTxt={card.info}/>
 
