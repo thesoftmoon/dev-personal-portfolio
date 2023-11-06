@@ -1,3 +1,5 @@
+@import 'MediaQueries';
+
 body.active-modal-js {
   overflow-y: hidden;
 }
@@ -35,12 +37,17 @@ body.active-modal-js {
   max-width: 500px;
   min-width: 200px;
   z-index: 22;
+  @include md {
+    width: 100%;
+    max-width: 380px;
+  }
+
   .content {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 2;
-    padding: 0px 20px 10px 20px;
+    padding: 130px 20px 10px 20px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.832) 0%, rgba(0, 0, 0, 0) 60%);
     color: #fff;
   }
