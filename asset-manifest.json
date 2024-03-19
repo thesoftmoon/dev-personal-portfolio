@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-personal-portfolio/static/css/main.5db9e7c9.css",
-    "main.js": "/dev-personal-portfolio/static/js/main.69e1f4eb.js",
+    "main.css": "/dev-personal-portfolio/static/css/main.df0691fc.css",
+    "main.js": "/dev-personal-portfolio/static/js/main.ac7325ad.js",
     "static/media/header-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-vid-pc.48aa4e1d5bfc0ba79cb5.mp4",
     "static/media/header-vid-mo.mp4": "/dev-personal-portfolio/static/media/header-vid-mo.35a62813ea060016429d.mp4",
     "static/media/header-footer-vid-pc.mp4": "/dev-personal-portfolio/static/media/header-footer-vid-pc.a9e52449f5c2a5915a1a.mp4",
@@ -13,6 +13,7 @@
     "static/media/project-pharpack.jpg": "/dev-personal-portfolio/static/media/project-pharpack.5dc183bf85f7801afacc.jpg",
     "static/media/project-mg-motor.jpg": "/dev-personal-portfolio/static/media/project-mg-motor.fc532a731e2fdc53a68a.jpg",
     "static/media/project-thumb.jpg": "/dev-personal-portfolio/static/media/project-thumb.f591882b97816d7c9366.jpg",
+    "static/media/project-samsung-form-cms.jpg": "/dev-personal-portfolio/static/media/project-samsung-form-cms.2572940dbf09be74f015.jpg",
     "static/media/project-rlc-store.jpg": "/dev-personal-portfolio/static/media/project-rlc-store.0b185a6f202c47ef9298.jpg",
     "static/media/project-samsung-liveshop.jpg": "/dev-personal-portfolio/static/media/project-samsung-liveshop.0b1bd27adf7113d81adb.jpg",
     "static/media/favicon-tp-black.ico": "/dev-personal-portfolio/static/media/favicon-tp-black.9c22e10bc36f59732e6d.ico",
@@ -20,11 +21,11 @@
     "static/media/favicon-tp-black.svg": "/dev-personal-portfolio/static/media/favicon-tp-black.1679c67b1cbf3929768b.svg",
     "static/media/favicon-tp-white.svg": "/dev-personal-portfolio/static/media/favicon-tp-white.236f19cea7d1e28bea7c.svg",
     "index.html": "/dev-personal-portfolio/index.html",
-    "main.5db9e7c9.css.map": "/dev-personal-portfolio/static/css/main.5db9e7c9.css.map",
-    "main.69e1f4eb.js.map": "/dev-personal-portfolio/static/js/main.69e1f4eb.js.map"
+    "main.df0691fc.css.map": "/dev-personal-portfolio/static/css/main.df0691fc.css.map",
+    "main.ac7325ad.js.map": "/dev-personal-portfolio/static/js/main.ac7325ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.5db9e7c9.css",
-    "static/js/main.69e1f4eb.js"
+    "static/css/main.df0691fc.css",
+    "static/js/main.ac7325ad.js"
   ]
 }
