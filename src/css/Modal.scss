@@ -20,12 +20,25 @@ body.active-modal-js {
   right: 0;
   bottom: 0;
   position: fixed;
-  z-index: 20;
+  z-index: 4;
 }
 
 .overlay-js {
   background: rgba(49, 49, 49, 0.8);
 }
+
+.modal-content-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}
+
 .modal-content-js {
   position: fixed;
   top: 50%;
@@ -34,7 +47,7 @@ body.active-modal-js {
   line-height: 1.4;
   background: transparent;
   border-radius: 3px;
-  max-width: 500px;
+  max-width: 650px;
   min-width: 200px;
   z-index: 22;
   @include md {
@@ -48,8 +61,9 @@ body.active-modal-js {
     right: 0;
     z-index: 2;
     padding: 130px 20px 10px 20px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.832) 0%, rgba(0, 0, 0, 0) 60%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.832) 0%, rgba(0, 0, 0, 0) 90%);
     color: #fff;
+    width: 100%;
   }
 }
 

@@ -1,0 +1,84 @@
+{
+  "siteTitle": {
+    "onBlur": "You need a Dev? :)",
+    "onFocus": "TP | UI/UX & Front-end dev"
+  },
+  "navbar" : {
+    "whatIDo": "what i do?",
+    "projects": "projects",
+    "contact": "contact"
+  },
+  "heroHeader": {
+    "title": "Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience",
+    "subTitle": "My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.",
+    "ctaBtn": "contact me"
+  },
+  "whatIDo": {
+    "title": "What i do?",
+    "services": {
+      "firstServiceTitle": "Web Design",
+      "firstServiceInfo": "I optimize your already developed website, adjusting images, videos and visual media, I work on some of the best known CMS such as Wordpress Adobe Experience Manager and Sitecore.",
+      "secondServiceTitle": "UI/UX Design",
+      "secondServiceInfo": "I analyze and formulate action flows, along with user interfaces focused on the latest trends that are most effective with your target user group.",
+      "thirdServiceTitle": "Front-end development",
+      "thirdServiceInfo": "I develop an excellent user experience by coding interfaces with the highest standards and latest technologies in trend in the market."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projectsInfo": [
+      {
+        "image": "img/project-mg-motor.jpg",
+        "title": "MG Motors Latam",
+        "info": "Conceptualization and front-end development of the MG Motor Latam site, this site is replicated throughout the Latin American region.",
+        "longInfo": "Dynamic website with CRUD system using microservices, developed under the MVC model within Laravel, with user management and custom CMS to modify the entire site, all mounted on AWS, hybrid front-end mounted within Laravel Blade files and VUE.js, using Jquery and SASS together with Bootstrap.",
+        "web": "https://www.mgmotorlatam.com/",
+        "tech": ["Adobe XD", "SASS", "JS", "Jquery", "PHP"]
+      },
+      {
+        "image": "img/project-samsung-liveshop.jpg",
+        "title": "Samsung Livecommerce",
+        "info": "Live shopping web application, with real-time transmission, where users can interact with the seller via chat.",
+        "longInfo": "Web application with integrated maintainer, real-time database for managing chats and app states, where you can update offers, disable chat, pin messages and other features, developed in Vue.js and Firebase as BaaS for the user and database management in real time.",
+        "web": "https://www.samsung.com/cl/live/",
+        "tech": ["Adobe XD", "HTML", "SASS", "Firebase", "VUE"]
+      },
+      {
+        "image": "img/project-rlc-store.jpg",
+        "title": "RLC Store",
+        "info": "E-commerce website, developed in wordpress and woocommerce, with media creation, SEO optimization and hosting configuration.",
+        "longInfo": "Online store developed in Wordpress together with Woocommerce using a base theme modified using JSX, PHP and CSS, in addition to domain configuration, SSL certificates and email boxes for team members.",
+        "web": "https://rompelacleta.com/",
+        "tech": ["Wordpress", "Woocommerce", "JSX", "CSS"]
+      },
+      {
+        "image": "img/project-pharpack.jpg",
+        "title": "Pharpack Website",
+        "info": "Corporate portfolio website, for Pharpack S.A., Chilean creative agency part of the Faret group.",
+        "longInfo": "Website developed in Wordpress with a base theme modified using PHP, JSX and CSS to meet the client's needs at low cost and in the minimum possible time, all mounted on a private hosting with configuration of SSL certificates, email boxes, domain and sub -domains for development, passing DNS through AWS.",
+        "web": "https://pharpack.cl/",
+        "tech": ["Figma", "Wordpress", "PHP", "CSS", "JSX"]
+      },
+      {
+        "image": "img/project-mg-challenge.jpg",
+        "title": "MG Challenge",
+        "info": "Web platform for MG Motors dealers in Chile, where they can compete for sales and knowledge of cars.",
+        "longInfo": "Platform developed within Laravel using the MVC method, managing the Front-End through Laravel blades, Jquery and Vanilla JS using SASS for style management, all mounted within AWS Cloud using MariaDB DB.",
+        "web": "https://challenge.mgmotor.cl/",
+        "tech": ["Figma", "HTML", "CSS", "Laravel", "Jquery", "PHP"]
+      },
+      {
+        "image": "img/project-samsung-form-cms.jpg",
+        "title": "Samsung IA Private Event",
+        "info": "Form web app for brand activations and contests, which has a CMS for managing user data and banners and states in real time.",
+        "longInfo": "Form with CRUD type CMS developed in React together with Sass and Firebase BaaS with real-time database update for status change, banner update and user data download, with ready-to-use and easy-to-use development and production environments replicate for future projects.",
+        "web": "https://s24galaxyai.cl/",
+        "tech": ["React", "Chakra UI", "Firebase", "SASS"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "would you like to work together?",
+    "subTitle": "Do you like my portfolio? Feel free to contact me by any of the social platforms, leave me a message and let's chat of your next project 😊."
+  }
+}

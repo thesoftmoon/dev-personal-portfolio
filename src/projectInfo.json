@@ -1,16 +1,17 @@
 [
   {
     "image": "img/project-mg-motor.jpg",
-    "title": "MG Motor Latam",
+    "title": "{t('projects.projectsInfo.project1.title')}",
     "info": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
+    "longInfo": "MG Motor Latam site conceptualization, and front-end development, this site is replicated in all Latin America region.",
     "web": "https://www.mgmotorlatam.com/",
-    "tech": ["Adobe XD", "SASS", "JS", "Jquery"]
+    "tech": ["Adobe XD", "SASS", "JS", "Jquery", "PHP"]
   },
   {
     "image": "img/project-samsung-liveshop.jpg",
-    "title": "Samsung Chile Liveshop",
+    "title": "Samsung Livecommerce",
     "info": "A web app live shopping, a new sale concept with a live transmission where users can interact with salesman in real time.",
-    "dribbble": "https://dribbble.com/",
+    "longInfo": "A web app live shopping, a new sale concept with a live transmission where users can interact with salesman in real time.",
     "web": "https://www.samsung.com/cl/live/",
     "tech": ["Adobe XD", "HTML", "SASS", "Firebase", "VUE"]
   },
@@ -18,28 +19,32 @@
     "image": "img/project-rlc-store.jpg",
     "title": "RLC Store",
     "info": "An E-commerce website, developed in wordpress and woocommerce, complete media creation and seo optimization.",
+    "longInfo": "An E-commerce website, developed in wordpress and woocommerce, complete media creation and seo optimization.",
     "web": "https://rompelacleta.com/",
-    "tech": ["Wordpress", "Woocommerce", "JS", "CSS"]
+    "tech": ["Wordpress", "Woocommerce", "JSX", "CSS"]
   },
   {
     "image": "img/project-pharpack.jpg",
     "title": "Pharpack Website",
     "info": "A simple corporate website for Pharpack, a Chilean creative agency part of group Faret",
-    "web": "https://www.pharpack.cl/",
-    "tech": ["Figma", "Wordpress", "PHP", "CSS", "JS"]
+    "longInfo": "A simple corporate website for Pharpack, a Chilean creative agency part of group Faret",
+    "web": "https://pharpack.cl/",
+    "tech": ["Figma", "Wordpress", "PHP", "CSS", "JSX"]
   },
   {
     "image": "img/project-mg-challenge.jpg",
     "title": "MG Challenge",
     "info": "A web platform for MG Cars dealers around chile, where can compete for sales and car knowledge",
+    "longInfo": "A web platform for MG Cars dealers around chile, where can compete for sales and car knowledge",
     "web": "https://challenge.mgmotor.cl/",
     "tech": ["Figma", "HTML", "CSS", "Laravel", "Jquery", "PHP"]
   },
   {
-    "image": "img/project-thumb.jpg",
-    "title": "Audiovisual Landing Page",
-    "info": "A concept landing page, exploring the color and form combination to attract user to interact with the optimized UI, designed to catch rapidly a conversion for the client.",
-    "dribbble": "https://dribbble.com/shots/14016360-Audiovisual-landing-page",
-    "tech": ["Adobe XD"]
+    "image": "img/project-samsung-form-cms.jpg",
+    "title": "Samsung Private Event",
+    "info": "A form whit CMS CRUD developed in React and Firebase BaaS whit realtime database refresh for state change, banner update and user data download",
+    "longInfo": "A form whit CMS CRUD developed in React and Firebase BaaS whit realtime database refresh for state change, banner update and user data download",
+    "web": "https://s24galaxyai.cl/",
+    "tech": ["React", "Chakra UI", "Firebase", "SASS"]
   }
 ]

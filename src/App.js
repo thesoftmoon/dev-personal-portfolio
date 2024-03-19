@@ -6,15 +6,18 @@ import Whatido from './components/Whatido';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import blackFavicon from './favicon/favicon-tp-black.ico';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
+import textTitleEs from './locales/es/global.json';
+import textTitleEn from './locales/en/global.json';
 
 function App() {
-  const headingHeroTxt = `Hi, i'm Tomás, a designer and front-end dev with 7 years of mixed experience`;
-  const paragraphHeroTxt = `My career evolution has driven me to create different web and digital solutions of first level for all my clients, with a user centric methodology.`;
   
+  const { t, i18n } = useTranslation("global");
+
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -24,14 +27,14 @@ function App() {
       delay: 150,
     });
   }, [])
-  
-  useEffect (()=>{
-   const onBlur = ()=>{
-    document.title = 'You need a Dev? :)';
-   }
-   const onFocus = ()=>{
-    document.title = 'TP | UI/UX and Front-end dev';
-   }
+
+  useEffect(() => {
+    const onBlur = () => {
+      document.title = i18n.language === "es" ? textTitleEs.siteTitle.onBlur : textTitleEn.siteTitle.onBlur;
+    }
+    const onFocus = () => {
+      document.title = i18n.language === "es" ? textTitleEs.siteTitle.onFocus : textTitleEn.siteTitle.onFocus;
+    }
     window.onblur = onBlur;
     window.onfocus = onFocus;
 
@@ -45,33 +48,34 @@ function App() {
   }, []);
 
 
+
   return (
     <div className="container">
-      <Navbar/>
+      <Navbar />
       <div className='row d-md-flex align-items-center justify-content-between hero-header'>
         <div className='col-12 col-md-5 img-container d-flex d-md-none'>
           {/* <img src={headerMo} alt='header pc' className='img-animation'/> */}
-          <video  autoPlay muted playsInline loop >
-            <source src={headerMoVideo} type="video/mp4"/>
+          <video autoPlay muted playsInline loop >
+            <source src={headerMoVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         <div className='col-12 col-md-5 main-info'>
-          <h1 className='heading-hero'>{headingHeroTxt}</h1>
-          <p className='paragraph-hero'>{paragraphHeroTxt}</p>
-          <a href='#contact' className='text-uppercase cta-btn'>contact me</a>
+          <h1 className='heading-hero'>{t("heroHeader.title")}</h1>
+          <p className='paragraph-hero'>{t("heroHeader.subTitle")}</p>
+          <a href='#contact' className='text-uppercase cta-btn'>{t("heroHeader.ctaBtn")}</a>
         </div>
         <div className='col-12 col-md-6 img-container d-none d-md-flex'>
           {/* <img src={headerPc} alt='header pc' className='img-animation'/> */}
           <video autoPlay muted playsInline loop >
-            <source src={headerPcVideo} type="video/mp4"/>
+            <source src={headerPcVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
-        <Whatido/>
-        <Portfolio/>
-        <Contact/>
+      <Whatido />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

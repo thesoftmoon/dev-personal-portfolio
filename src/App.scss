@@ -57,7 +57,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 3;
   transition: 0.3s ease-in;
 
   .container {
@@ -518,4 +518,23 @@ a {
   height: 100%; /* Alto del 100% de la ventana visible */
   background-color: rgba(0, 0, 0, 0.138);
   z-index: 99;
+}
+
+.primary-btn {
+  background-color: #a730f8;
+  color: #fff;
+  border: 1px solid #a730f8;
+  border-radius: 10px;
+  margin: 0 2px;
+  transition: all .15s linear;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 10px;
+  margin: 0 2px;
+  transition: all .15s linear;
+
 }

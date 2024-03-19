@@ -1,7 +1,10 @@
 import React, { useRef, useState } from "react";
+import { useTranslation } from 'react-i18next'
 
 function Navbar() {
   const [navBgColor, setNavBgColor] = useState(false);
+
+  const { t, i18n } = useTranslation("global")
 
   const navbarBgChange = () => {
     if (window.scrollY >= 90) {
@@ -17,16 +20,16 @@ function Navbar() {
 
   const openMenu = useRef(null);
 
-  
+
   const handleClick = () => {
     setIsOpened(!isOpened);
   };
 
-  const openRemover = () =>{
-    if(!isOpened){
+  const openRemover = () => {
+    if (!isOpened) {
       openMenu.current.classList.add('open');
       openMenu.current.classList.remove('closed');
-    } else if(isOpened){
+    } else if (isOpened) {
       openMenu.current.classList.remove('open');
       openMenu.current.classList.add('closed');
     }
@@ -64,7 +67,7 @@ function Navbar() {
         >
           <button
             className={isOpened ? "opened menu" : "menu"}
-            onClick={()=>{handleClick(); openRemover();}}
+            onClick={() => { handleClick(); openRemover(); }}
             aria-label={isOpened}
           >
             <svg width="60" height="60" viewBox="0 0 100 100">
@@ -81,27 +84,36 @@ function Navbar() {
           </button>
           <div ref={openMenu} className='links-mo'>
             <a className="navbar-mo-btn" href="#whatido">
-              <h2>what i do?</h2>
+              <h2>{t("navbar.whatIDo")}</h2>
             </a>
             <a className="navbar-mo-btn" href="#projects">
-              <h2>projects</h2>
+              <h2>{t("navbar.projects")}</h2>
             </a>
             <a className="navbar-mo-btn" href="#contact">
-              <h2>contact</h2>
+              <h2>{t("navbar.contact")}</h2>
             </a>
+
+            <div className="lenguage-switch-container">
+              <button onClick={() => i18n.changeLanguage("en")} className={i18n.language === "en" ? "primary-btn" : "secondary-btn"}>EN</button>
+              <button onClick={() => i18n.changeLanguage("es")} className={i18n.language === "es" ? "primary-btn" : "secondary-btn"}>ES</button>
+            </div>
           </div>
         </div>
 
         <div className="navbar-links-pc d-none d-md-flex">
           <a className="navbar-btn" href="#whatido">
-            what i do?
+            {t("navbar.whatIDo")}
           </a>
           <a className="navbar-btn" href="#projects">
-            projects
+            {t("navbar.projects")}
           </a>
           <a className="navbar-btn" href="#contact">
-            contact
+            {t("navbar.contact")}
           </a>
+          <div className="lenguage-switch-container">
+            <button onClick={() => i18n.changeLanguage("en")} className={i18n.language === "en" ? "primary-btn" : "secondary-btn"}>EN</button>
+            <button onClick={() => i18n.changeLanguage("es")} className={i18n.language === "es" ? "primary-btn" : "secondary-btn"}>ES</button>
+          </div>
         </div>
       </div>
     </div>

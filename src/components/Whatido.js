@@ -1,16 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Whatido() {
-  const mainTitle = "What i do?";
-  const title1 = "Web Design";
-  const title2 = "UI/UX Design";
-  const title3 = "Front-end development";
+
+  const { t } = useTranslation("global");
 
   return (
     <div className="whatido" data-aos='fade-right' id="whatido">
       <div className="row">
         <div className="col-12 text-center">
-          <h1>{mainTitle}</h1>
+          <h1>{t("whatIDo.title")}</h1>
         </div>
       </div>
 
@@ -69,11 +68,9 @@ function Whatido() {
               </g>
             </svg>
           </div>
-          <h5>{title1}</h5>
+          <h5>{t("whatIDo.services.firstServiceTitle")}</h5>
           <p>
-            I optimize your already developed website, adjusting images, videos
-            and visual media, I work on some of the best known CMS such as
-            Wordpress Adobe Experience Manager and Sitecore.
+            {t("whatIDo.services.firstServiceInfo")}
           </p>
         </div>
 
@@ -173,11 +170,9 @@ function Whatido() {
               />
             </svg>
           </div>
-          <h5>{title2}</h5>
+          <h5>{t("whatIDo.services.secondServiceTitle")}</h5>
           <p>
-            I analyze and formulate action flows, along with user interfaces
-            focused on the latest trends that are most effective with your
-            target user group.
+            {t("whatIDo.services.secondServiceInfo")}
           </p>
         </div>
 
@@ -225,10 +220,9 @@ function Whatido() {
               />
             </svg>
           </div>
-          <h5>{title3}</h5>
+          <h5>{t("whatIDo.services.thirdServiceTitle")}</h5>
           <p>
-            I develop an excellent user experience by coding interfaces with the
-            highest standards and latest technologies in trend in the market.
+            {t("whatIDo.services.thirdServiceInfo")}
           </p>
         </div>
       </div>

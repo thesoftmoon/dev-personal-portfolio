@@ -1,8 +1,12 @@
 import React from "react";
 import headerPcVideo from "../vid/header-footer-vid-pc.mp4";
 import headerMoVideo from "../vid/header-footer-vid-mo.mp4";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+
+  const { t } = useTranslation('global');
+
   const gitHub = "https://github.com/thesoftmoon";
   const linkdIn = "https://www.linkedin.com/in/tomas-pacheco-uiux/";
   const eMail = "mailto:tomas.pacheco.c@gmail.com";
@@ -10,10 +14,9 @@ function Contact() {
     <div id="contact" className="contact row" data-aos='fade-right'>
       <div className="col-12 txt-container h-100">
         <div className="col-12 col-md-6">
-          <h1>would you like to work together?</h1>
+          <h1>{t("contact.title")}</h1>
           <p>
-            Do you like my portfolio? Feel free to contact me by any of the social platforms, leave me a message and
-            let's chat of your next project 😊.
+            {t("contact.subTitle")}
           </p>
         </div>
 
